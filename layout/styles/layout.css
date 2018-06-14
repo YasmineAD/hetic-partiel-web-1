@@ -4,7 +4,9 @@
 @import url("font-awesome.min.css");
 @import url("framework.css");
 
+
 /* Top Bar --------------------------------------------------------------------------------------------------------------- */
+
 
 #topbar {
 	padding: 15px 0;
@@ -12,24 +14,29 @@
 	text-transform: uppercase;
 }
 
+
 #topbar * {
 	margin: 0;
 }
 
+
 #topbar ul {
 	float: right;
 }
+
 
 #topbar ul li {
 	display: inline-block;
 	margin-right: 15px;
 }
 
+
 #topbar ul li:last-child {
 	margin-right: 0;
 	padding-right: 0;
 	border-right: none;
 }
+
 
 #topbar i {
 	line-height: normal;
@@ -38,11 +45,14 @@
 
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
+
 #header {}
+
 
 #header #logo {
 	margin: 30px 0 0 0;
 }
+
 
 #header #logo h1 {
 	margin: 0;
@@ -54,9 +64,11 @@
 
 /* Page Intro --------------------------------------------------------------------------------------------------------------- */
 
+
 #pageintro {
 	padding: 180px 0;
 }
+
 
 #pageintro article {
 	display: block;
@@ -65,10 +77,12 @@
 	text-align: center;
 }
 
+
 #pageintro .heading {
 	margin-bottom: 20px;
 	font-size: 3rem;
 }
+
 
 #pageintro p:first-of-type {
 	margin: 0 0 20px 0;
@@ -77,12 +91,14 @@
 	letter-spacing: 5px;
 }
 
+
 #pageintro footer {
 	margin-top: 50px;
 }
 
 
 /* Content Area --------------------------------------------------------------------------------------------------------------- */
+
 
 .container {
 	padding: 80px 0;
@@ -91,7 +107,9 @@
 
 /* Content */
 
+
 .container .content {}
+
 
 .sectiontitle {
 	display: block;
@@ -100,17 +118,21 @@
 	text-align: center;
 }
 
+
 .sectiontitle * {
 	margin: 0;
 }
+
 
 .services {
 	margin-bottom: 80px;
 }
 
+
 .services>li>ul li {
 	margin-bottom: 10px;
 }
+
 
 .services>li:last-child,
 .services>li>ul li:last-child {
@@ -120,11 +142,14 @@
 
 /* Used when elements stack in smaller viewports */
 
+
 .services>li>ul li i {
 	margin-right: 8px;
 }
 
+
 .clients {}
+
 
 .clients li:last-child {
 	margin-bottom: 0;
@@ -133,35 +158,42 @@
 
 /* Used when elements stack in small viewports */
 
+
 .clients li a {
 	display: inline-block;
 	max-width: 100%;
 }
+
 
 .meta li {
 	display: inline-block;
 	font-size: .8rem;
 }
 
+
 .meta li::after {
 	margin-left: 5px;
 	content: "|";
 }
+
 
 .meta li:last-child::after {
 	margin: 0;
 	content: "";
 }
 
+
 .team {
 	margin-bottom: 80px;
 }
+
 
 .team figure {
 	display: block;
 	position: relative;
 	max-width: 320px;
 }
+
 
 .team>figure:last-child {
 	margin-bottom: 0;
@@ -170,19 +202,23 @@
 
 /* Used when elements stack in smaller viewports */
 
+
 .team figure figcaption {
 	padding-top: 15px;
 	text-align: center;
 }
 
+
 .team figure figcaption * {
 	margin: 0;
 }
+
 
 .team figure figcaption .heading {
 	margin-bottom: 8px;
 	font-size: 1.2rem;
 }
+
 
 .team figure figcaption em {
 	display: block;
@@ -190,13 +226,16 @@
 	font-style: normal;
 }
 
+
 .team figure figcaption footer {
 	margin-top: 15px;
 }
 
+
 .team figure figcaption footer .faico li {
 	margin: 0 1px;
 }
+
 
 .team figure figcaption footer .faico li a {
 	width: 30px;
@@ -205,13 +244,16 @@
 	font-size: 12px;
 }
 
+
 .latest {
 	margin-bottom: 80px;
 }
 
+
 .latest article {
 	max-width: 320px;
 }
+
 
 .latest>article:last-child {
 	margin-bottom: 0;
@@ -223,16 +265,19 @@
 
 /* Comments */
 
+
 #comments ul {
 	margin: 0 0 40px 0;
 	padding: 0;
 	list-style: none;
 }
 
+
 #comments li {
 	margin: 0 0 10px 0;
 	padding: 15px;
 }
+
 
 #comments .avatar {
 	float: right;
@@ -241,13 +286,16 @@
 	border: 1px solid;
 }
 
+
 #comments address {
 	font-weight: bold;
 }
 
+
 #comments time {
 	font-size: smaller;
 }
+
 
 #comments .comcont {
 	display: block;
@@ -255,15 +303,18 @@
 	padding: 0;
 }
 
+
 #comments .comcont p {
 	margin: 10px 5px 10px 0;
 	padding: 0;
 }
 
+
 #comments form {
 	display: block;
 	width: 100%;
 }
+
 
 #comments input,
 #comments textarea {
@@ -272,13 +323,16 @@
 	border: 1px solid;
 }
 
+
 #comments textarea {
 	overflow: auto;
 }
 
+
 #comments div {
 	margin-bottom: 15px;
 }
+
 
 #comments input[type="submit"],
 #comments input[type="reset"] {
@@ -293,11 +347,14 @@
 
 /* Sidebar */
 
+
 .container .sidebar {}
+
 
 .sidebar .sdb_holder {
 	margin-bottom: 50px;
 }
+
 
 .sidebar .sdb_holder:last-child {
 	margin-bottom: 0;
@@ -306,14 +363,17 @@
 
 /* Click to Action --------------------------------------------------------------------------------------------------------------- */
 
+
 .cta {
 	padding: 80px 0;
 	text-align: center;
 }
 
+
 .cta .sectiontitle {
 	margin-bottom: 50px;
 }
+
 
 .cta form {
 	max-width: 80%;
@@ -321,11 +381,13 @@
 	padding: 0;
 }
 
+
 .cta input {
 	width: 100%;
 	padding: 8px;
 	border: 1px solid;
 }
+
 
 .cta button {
 	display: inline-block;
@@ -339,14 +401,17 @@
 
 /* Footer --------------------------------------------------------------------------------------------------------------- */
 
+
 #footer {
 	padding: 80px 0;
 }
+
 
 #footer .heading {
 	margin-bottom: 50px;
 	font-size: 1.2rem;
 }
+
 
 #footer .linklist li {
 	display: block;
@@ -355,11 +420,13 @@
 	border-bottom: 1px solid;
 }
 
+
 #footer .linklist li:last-child {
 	margin: 0;
 	padding: 0;
 	border: none;
 }
+
 
 #footer .linklist li::before,
 #footer .linklist li::after {
@@ -367,12 +434,15 @@
 	content: "";
 }
 
+
 #footer .linklist li,
 #footer .linklist li::after {
 	clear: both;
 }
 
+
 #footer .contact {}
+
 
 #footer .contact.linklist li,
 #footer .contact.linklist li:last-child {
@@ -380,11 +450,13 @@
 	padding-left: 40px;
 }
 
+
 #footer .contact li * {
 	margin: 0;
 	padding: 0;
 	line-height: 1.6;
 }
+
 
 #footer .contact li i {
 	display: block;
@@ -399,9 +471,11 @@
 
 /* Copyright --------------------------------------------------------------------------------------------------------------- */
 
+
 #copyright {
 	padding: 20px 0;
 }
+
 
 #copyright * {
 	margin: 0;
@@ -411,11 +485,13 @@
 
 /* Transition Fade This gives a smooth transition to "ALL" elements used in the layout - other than the navigation form used in mobile devices If you don't want it to fade all elements, you have to list the ones you want to be faded individually Delete it completely to stop fading --------------------------------------------------------------------------------------------------------------- */
 
+
 *,
 *::before,
 *::after {
 	transition: all .3s ease-in-out;
 }
+
 
 #mainav form * {
 	transition: none !important;
@@ -439,6 +515,7 @@
 
 /* Navigation --------------------------------------------------------------------------------------------------------------- */
 
+
 nav ul,
 nav ol {
 	margin: 0;
@@ -446,11 +523,13 @@ nav ol {
 	list-style: none;
 }
 
+
 #mainav,
 #breadcrumb,
 .sidebar nav {
 	line-height: normal;
 }
+
 
 #mainav .drop::after,
 #mainav li li .drop::after,
@@ -465,11 +544,14 @@ nav ol {
 
 /* Top Navigation */
 
+
 #mainav {}
+
 
 #mainav ul {
 	text-transform: uppercase;
 }
+
 
 #mainav ul ul {
 	z-index: 9999;
@@ -478,10 +560,12 @@ nav ol {
 	text-transform: none;
 }
 
+
 #mainav ul ul ul {
 	left: 180px;
 	top: 0;
 }
+
 
 #mainav li {
 	display: inline-block;
@@ -490,28 +574,34 @@ nav ol {
 	padding: 0;
 }
 
+
 #mainav li:last-child {
 	margin-right: 0;
 }
+
 
 #mainav li li {
 	width: 100%;
 	margin: 0;
 }
 
+
 #mainav li a {
 	display: block;
 	padding: 30px 0;
 }
+
 
 #mainav li li a {
 	border: solid;
 	border-width: 0 0 1px 0;
 }
 
+
 #mainav .drop {
 	padding-left: 15px;
 }
+
 
 #mainav li li a,
 #mainav li li .drop {
@@ -520,36 +610,43 @@ nav ol {
 	padding: 10px 15px;
 }
 
+
 #mainav .drop::after,
 #mainav li li .drop::after {
 	content: "\f0d7";
 }
+
 
 #mainav .drop::after {
 	top: 35px;
 	left: 5px;
 }
 
+
 #mainav li li .drop::after {
 	top: 15px;
 	left: 5px;
 }
+
 
 #mainav ul ul {
 	visibility: hidden;
 	opacity: 0;
 }
 
+
 #mainav ul li:hover>ul {
 	visibility: visible;
 	opacity: 1;
 }
+
 
 #mainav form {
 	display: none;
 	margin: 0;
 	padding: 0;
 }
+
 
 #mainav form select,
 #mainav form select option {
@@ -558,11 +655,13 @@ nav ol {
 	outline: none;
 }
 
+
 #mainav form select {
 	width: 100%;
 	padding: 5px;
 	border: 1px solid;
 }
+
 
 #mainav form select option {
 	margin: 5px;
@@ -573,9 +672,11 @@ nav ol {
 
 /* Breadcrumb */
 
+
 #breadcrumb {
 	padding: 120px 0 30px;
 }
+
 
 #breadcrumb ul {
 	margin: 0;
@@ -584,11 +685,13 @@ nav ol {
 	text-transform: uppercase;
 }
 
+
 #breadcrumb li {
 	display: inline-block;
 	margin: 0 6px 0 0;
 	padding: 0;
 }
+
 
 #breadcrumb li a {
 	display: block;
@@ -598,20 +701,24 @@ nav ol {
 	font-size: 12px;
 }
 
+
 #breadcrumb li a::after {
 	top: 3px;
 	right: 0;
 	content: "\f101";
 }
 
+
 #breadcrumb li:last-child a {
 	margin: 0;
 	padding: 0;
 }
 
+
 #breadcrumb li:last-child a::after {
 	display: none;
 }
+
 
 #breadcrumb .heading {
 	margin: 0;
@@ -621,15 +728,18 @@ nav ol {
 
 /* Sidebar Navigation */
 
+
 .sidebar nav {
 	display: block;
 	width: 100%;
 }
 
+
 .sidebar nav li {
 	margin: 0 0 3px 0;
 	padding: 0;
 }
+
 
 .sidebar nav a {
 	display: block;
@@ -641,23 +751,28 @@ nav ol {
 	border-width: 0 0 1px 0;
 }
 
+
 .sidebar nav a::after {
 	top: 9px;
 	left: 5px;
 	content: "\f101";
 }
 
+
 .sidebar nav ul ul a {
 	padding-left: 35px;
 }
+
 
 .sidebar nav ul ul a::after {
 	left: 25px;
 }
 
+
 .sidebar nav ul ul ul a {
 	padding-left: 55px;
 }
+
 
 .sidebar nav ul ul ul a::after {
 	left: 45px;
@@ -666,6 +781,7 @@ nav ol {
 
 /* Pagination */
 
+
 .pagination {
 	display: block;
 	width: 100%;
@@ -673,14 +789,17 @@ nav ol {
 	clear: both;
 }
 
+
 .pagination li {
 	display: inline-block;
 	margin: 0 2px 0 0;
 }
 
+
 .pagination li:last-child {
 	margin-right: 0;
 }
+
 
 .pagination a,
 .pagination strong {
@@ -693,6 +812,7 @@ nav ol {
 
 
 /* Back to Top */
+
 
 #backtotop {
 	z-index: 999;
@@ -709,6 +829,7 @@ nav ol {
 	opacity: .2;
 }
 
+
 #backtotop i {
 	display: block;
 	width: 100%;
@@ -716,10 +837,12 @@ nav ol {
 	line-height: inherit;
 }
 
+
 #backtotop.visible {
 	visibility: visible;
 	opacity: .5;
 }
+
 
 #backtotop:hover {
 	opacity: 1;
@@ -727,6 +850,7 @@ nav ol {
 
 
 /* Tables --------------------------------------------------------------------------------------------------------------- */
+
 
 table,
 th,
@@ -736,20 +860,24 @@ td {
 	vertical-align: top;
 }
 
+
 table,
 th {
 	table-layout: auto;
 }
+
 
 table {
 	width: 100%;
 	margin-bottom: 15px;
 }
 
+
 th,
 td {
 	padding: 5px 8px;
 }
+
 
 td {
 	border-width: 0 1px;
@@ -758,17 +886,20 @@ td {
 
 /* Gallery --------------------------------------------------------------------------------------------------------------- */
 
+
 #gallery {
 	display: block;
 	width: 100%;
 	margin-bottom: 50px;
 }
 
+
 #gallery figure figcaption {
 	display: block;
 	width: 100%;
 	clear: both;
 }
+
 
 #gallery li {
 	margin-bottom: 30px;
@@ -777,11 +908,13 @@ td {
 
 /* Font Awesome Social Icons --------------------------------------------------------------------------------------------------------------- */
 
+
 .faico {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+
 
 .faico li {
 	display: inline-block;
@@ -790,9 +923,11 @@ td {
 	line-height: normal;
 }
 
+
 .faico li:last-child {
 	margin-right: 0;
 }
+
 
 .faico a {
 	display: inline-block;
@@ -803,32 +938,40 @@ td {
 	text-align: center;
 }
 
+
 .faico a {
 	color: #FFFFFF;
 	background-color: #000000;
 }
 
+
 .faico a:hover {}
+
 
 .faicon-dribble:hover {
 	background-color: #EA4C89;
 }
 
+
 .faicon-facebook:hover {
 	background-color: #3B5998;
 }
+
 
 .faicon-google-plus:hover {
 	background-color: #DB4A39;
 }
 
+
 .faicon-linkedin:hover {
 	background-color: #0E76A8;
 }
 
+
 .faicon-twitter:hover {
 	background-color: #00ACEE;
 }
+
 
 .faicon-vk:hover {
 	background-color: #4E658E;
@@ -852,14 +995,17 @@ td {
 
 /* Colours --------------------------------------------------------------------------------------------------------------- */
 
+
 body {
 	color: #7A7A7A;
 	background-color: #FFFFFF;
 }
 
+
 a {
 	color: #CF9C67;
 }
+
 
 a:active,
 a:focus {
@@ -869,15 +1015,18 @@ a:focus {
 
 /* IE10 + 11 Bugfix - prevents grey background */
 
+
 hr,
 .borderedbox {
 	border-color: #D7D7D7;
 }
 
+
 label span {
 	color: #FF0000;
 	background-color: inherit;
 }
+
 
 input:focus,
 textarea:focus,
@@ -885,19 +1034,23 @@ textarea:focus,
 	border-color: #CF9C67;
 }
 
+
 .overlay {
 	color: #FFFFFF;
 	background-color: inherit;
 }
+
 
 .overlay::after {
 	color: inherit;
 	background-color: rgba(0, 0, 0, .8);
 }
 
+
 .overlay.light::after {
 	background-color: rgba(0, 0, 0, .55);
 }
+
 
 .btn,
 .btn.inverse:hover {
@@ -906,6 +1059,7 @@ textarea:focus,
 	border-color: #CF9C67;
 }
 
+
 .btn:hover,
 .btn.inverse {
 	color: inherit;
@@ -913,9 +1067,11 @@ textarea:focus,
 	border-color: inherit;
 }
 
+
 .imgover:hover::before {
 	background: rgba(0, 0, 0, .55);
 }
+
 
 .imgover,
 .imgover:hover::after {
@@ -925,36 +1081,43 @@ textarea:focus,
 
 /* Rows */
 
+
 .row0,
 .row0 a {
 	color: #FFFFFF;
 }
+
 
 .row1 {
 	color: #FFFFFF;
 	background-color: rgba(0, 0, 0, .2);
 }
 
+
 .row2 {
 	color: #FFFFFF;
 	background-color: #222222;
 }
+
 
 .row3 {
 	color: #7A7A7A;
 	background-color: #FFFFFF;
 }
 
+
 .row4 {
 	color: #7A7A7A;
 	background-color: #F7F7F7;
 }
+
 
 .row5,
 .row5 a {
 	color: #7A7A7A;
 	background-color: #FFFFFF;
 }
+
 
 .row3 .heading,
 .row4 .heading {
@@ -964,12 +1127,14 @@ textarea:focus,
 
 /* Top Bar */
 
+
 #topbar ul li:first-child a {
 	color: #CF9C67;
 }
 
 
 /* Header */
+
 
 #header #logo a {
 	color: inherit;
@@ -978,6 +1143,7 @@ textarea:focus,
 
 /* Page Intro */
 
+
 #pageintro {
 	color: #FFFFFF;
 }
@@ -985,10 +1151,12 @@ textarea:focus,
 
 /* Content Area */
 
+
 .services a,
 .services>li>ul li:hover i {
 	color: #FFFFFF;
 }
+
 
 .services a:hover,
 .services>li>ul li i {
@@ -998,19 +1166,23 @@ textarea:focus,
 
 /* Click to Action */
 
+
 .cta input {
 	background-color: transparent;
 	border-color: rgba(255, 255, 255, .2);
 }
+
 
 .cta:hover input {
 	color: #FFFFFF;
 	border-color: rgba(255, 255, 255, 1);
 }
 
+
 .cta input:focus {
 	border-color: #CF9C67;
 }
+
 
 .cta button {
 	color: #FFFFFF;
@@ -1020,12 +1192,14 @@ textarea:focus,
 
 /* The following was requested from one of our users, it's the so-called "must have" cross-browser placeholder text colouring: if your not worried about it, simply delete it, as the placeholder will take on the default preset colour, but it will be rendered differently in each browser */
 
+
 .cta input[type="text"][placeholder] {
 	color: #FFFFFF;
 }
 
 
 /* W3C */
+
 
 .cta ::-webkit-input-placeholder {
 	color: #FFFFFF;
@@ -1034,12 +1208,14 @@ textarea:focus,
 
 /* Chrome */
 
+
 .cta :-ms-input-placeholder {
 	color: #FFFFFF;
 }
 
 
 /* IE 10+ */
+
 
 .cta ::-moz-placeholder {
 	color: #FFFFFF;
@@ -1048,6 +1224,7 @@ textarea:focus,
 
 
 /* FF 19+ */
+
 
 .cta :-moz-placeholder {
 	color: #FFFFFF;
@@ -1060,6 +1237,7 @@ textarea:focus,
 
 /* Footer */
 
+
 #footer hr,
 #footer .borderedbox,
 #footer .linklist li {
@@ -1069,9 +1247,11 @@ textarea:focus,
 
 /* Navigation */
 
+
 #mainav li a {
 	color: inherit;
 }
+
 
 #mainav .active a,
 #mainav a:hover,
@@ -1080,6 +1260,7 @@ textarea:focus,
 	background-color: inherit;
 }
 
+
 #mainav li li a,
 #mainav .active li a {
 	color: #FFFFFF;
@@ -1087,44 +1268,53 @@ textarea:focus,
 	border-color: rgba(0, 0, 0, .2);
 }
 
+
 #mainav li li:hover>a,
 #mainav .active .active>a {
 	color: #FFFFFF;
 	background-color: #CF9C67;
 }
 
+
 #mainav form select {
 	color: #FFFFFF;
 	background-color: #000000;
 }
+
 
 #breadcrumb a {
 	color: inherit;
 	background-color: inherit;
 }
 
+
 #breadcrumb li:last-child a {
 	color: #CF9C67;
 }
+
 
 .container .sidebar nav a {
 	color: inherit;
 	border-color: #D7D7D7;
 }
 
+
 .container .sidebar nav a:hover {
 	color: #CF9C67;
 }
+
 
 .pagination a,
 .pagination strong {
 	border-color: #D7D7D7;
 }
 
+
 .pagination .current * {
 	color: #FFFFFF;
 	background-color: #CF9C67;
 }
+
 
 #backtotop {
 	color: #FFFFFF;
@@ -1133,6 +1323,7 @@ textarea:focus,
 
 
 /* Tables + Comments */
+
 
 table,
 th,
@@ -1143,16 +1334,19 @@ td,
 	border-color: #D7D7D7;
 }
 
+
 #comments input:focus,
 #comments textarea:focus,
 #comments *:required:focus {
 	border-color: #CF9C67;
 }
 
+
 th {
 	color: #FFFFFF;
 	background-color: #373737;
 }
+
 
 tr,
 #comments li,
@@ -1162,11 +1356,13 @@ tr,
 	background-color: #FBFBFB;
 }
 
+
 tr:nth-child(even),
 #comments li:nth-child(even) {
 	color: inherit;
 	background-color: #F7F7F7;
 }
+
 
 table a,
 #comments a {
@@ -1191,12 +1387,14 @@ table a,
 
 /* Media Queries --------------------------------------------------------------------------------------------------------------- */
 
+
 @-ms-viewport {
 	width: device-width;
 }
 
 
 /* Max Wrapper Width - Laptop, Desktop etc. --------------------------------------------------------------------------------------------------------------- */
+
 
 @media screen and (min-width:978px) {
 	.hoc {
@@ -1206,6 +1404,7 @@ table a,
 
 
 /* Mobile Devices --------------------------------------------------------------------------------------------------------------- */
+
 
 @media screen and (max-width:900px) {
 	.hoc {
@@ -1240,6 +1439,7 @@ table a,
 		margin-bottom: 10px;
 	}
 }
+
 
 @media screen and (max-width:750px) {
 	.imgl,
@@ -1299,6 +1499,7 @@ table a,
 
 /* Other --------------------------------------------------------------------------------------------------------------- */
 
+
 @media screen and (max-width:650px) {
 	.scrollable {
 		display: block;
@@ -1327,4 +1528,3 @@ table a,
 		font-size: 1.6rem;
 	}
 }
-
